@@ -6,6 +6,7 @@ greeting += "Swift"
 print(greeting)  // Hello, Swift!
 
 // 문제 2
+var emptyString = ""
 var emptyString: String = "A"
 print(emptyString.isEmpty)  // false
 
