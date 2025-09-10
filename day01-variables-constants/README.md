@@ -1,5 +1,5 @@
 
-# Day 02 - Strings & Booleans
+# Day 01 - Strings & Booleans
 
 ## 학습 내용
 - 문자열 프로퍼티 & 메서드
