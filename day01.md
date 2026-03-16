@@ -64,4 +64,12 @@ String(value , radix:  ,uppercase: )
 - String(number, radix: 8)
 - String(number, radix: 16)
 
+- 2진수 소수 계산
+
+var number1 = 0.7
+var number2 = 0.2
+
+var sum = number1 + number2
+- 10진수로 나타내기:
+Decimal(sum)
 
