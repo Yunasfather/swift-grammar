@@ -29,18 +29,18 @@ control + O
 control + X
 
 깃허브 올리기:
-git init
-git add .
-git commit -m "Add today's study notes"
-git branch -M main
-git remote add origin https://github.com/Yunasfather/swift-grammar.git
-git push -u origin maigit init
-git add .
-git commit -m "Add today's study notes"
-git branch -M main
-git remote add origin 깃허브 올릴 주소
-git push -u origin main
-
+- git init  
+- git add .  
+- git commit -m "Add today's study notes"  
+- git branch -M main  
+- git remote add origin 내 깃허브 주소    
+- git push -u origin maigit init  
+- git add .  
+- git commit -m "Add today's study notes"  
+- git branch -M main  
+- git remote add origin 깃허브 올릴 주소  
+- git push -u origin main  
+  
 // git commit -m  "지금까지 추가한 변경사항을 하나의 저장 기록으로 남기는 명령어"
 원하는 글을 "" 안에 적으면 끝.
 git commit
