@@ -57,11 +57,11 @@ Swift Day01
 String(value , radix:  ,uppercase: )
 
 사용 예:
-var number: Int = 27
+- var number: Int = 27
 
-String(number, radix: 10)
-String(number, radix: 2)
-String(number, radix: 8)
-String(number, radix: 16)
+- String(number, radix: 10)
+- String(number, radix: 2)
+- String(number, radix: 8)
+- String(number, radix: 16)
 
 
