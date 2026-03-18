@@ -60,5 +60,22 @@ fruits.count(for: "banana") //3
   
 fruits.remove("banana")  
   
-fruits.count(for: "banana") //2  
+fruits.count(for: "banana") //2
+
+// 딕셔너리    
+
+var cityNames1 = ["city1" : "seoul", "city2" : "busan", "city3" : "daegu"]  
+var cityNames2 = ["city4" : "incheon", "city5" : "daejeon"]  
+  
+  
+// 직접 추가하는 2가지 방법  
+cityNames1["city4"] = "tokyo"  
+cityNames1.updateValue("jeju", forKey: "city5")  
+  
+// 딕셔너리끼리 결합  
+// 중복Value허용 안댐  
+let cityNames3 = cityNames2.merging(cityNames1) { current, new in  
+    return current  
+}  
+
 
