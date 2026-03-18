@@ -10,6 +10,7 @@ var names = "toraco"
 
 Array  
  배열에 추가하기  
+
  - .append() <-- 배열 끝에 추가  
  - .insert(값, at: 넣을 위치) <-- 중간에 넣기  
  - .append(contentsOf: 변수명, at: 넣을 위치)   
