@@ -44,3 +44,21 @@ print(동물.isSuperset(of: 포유류))
 //동물은 새의 전체집합인가  
 print(동물.isSuperset(of: 새))  
 
+// NSCountedSet  
+
+
+let fruits: NSCountedSet = ["banana", "orange", "apple"]  
+  
+fruits.count(for: "banana") //1  
+  
+fruits.add("banana")  
+fruits  
+fruits.count(for: "banana") //2  
+  
+fruits.add("banana")  
+fruits.count(for: "banana") //3  
+  
+fruits.remove("banana")  
+  
+fruits.count(for: "banana") //2  
+
