@@ -10,14 +10,14 @@ print(intersectSet)
 
 
 // 여집합의 합(배타적 논리합)  
-  
+// ["ryo", "miyu", "kofi", "aiko", "Kazuhiro", "aoi"]    
 let symmetricDiffSet: Set<String> =  
 englishClassStudents.symmetricDifference(koreanClassStudents)  
 print(symmetricDiffSet)  
 
 
 // 합집합  
-
+// ["aiko", "ryo", "hana", "aoi", "Kazuhiro", "miyu", "Aya", "kofi"]  
 
 let unionSet: Set<String> = englishClassStudents.union(koreanClassStudents)  
 print(unionSet)  
@@ -26,21 +26,26 @@ print(unionSet.sorted)
 
 
 // 차집합  
+// ["aoi", "kofi", "aiko", "miyu"]  
+
 let subtractSet: Set<String> =  
 englishClassStudents.subtracting(koreanClassStudents)  
 print(subtractSet)  
 
- // 포함관계  
-let 새: Set<String> = ["갈매기", "까치", "앵무새"]  
-let 포유류: Set<String> = ["사자", "강아지", "고양이"]  
-let 동물: Set<String> = 새.union(포유류) // 새와 포유류의 합집합  
 
-// 서로 배타적인가    
-print(새.isDisjoint(with: 포유류))  
-//새가 동물의 부분집합인가?  
-print(새.isSubset(of : 동물))  
-// 동물은 포유류의 전체집합인가요?  
-print(동물.isSuperset(of: 포유류))  
-//동물은 새의 전체집합인가  
-print(동물.isSuperset(of: 새))  
+// 포함관계 연산  
+
+let 새: Set<String> = ["갈매기", "까치", "앵무새"]
+let 포유류: Set<String> = ["사자", "강아지", "고양이"]
+let 동물: Set<String> = 새.union(포유류) // 새와 포유류의 합집합
+
+// 서로 배타적인가
+print(새.isDisjoint(with: 포유류))
+//새가 동물의 부분집합인가?
+print(새.isSubset(of : 동물))
+// 동물은 포유류의 전체집합인가요?
+print(동물.isSuperset(of: 포유류))
+//동물은 새의 전체집합인가
+print(동물.isSuperset(of: 새))
+
 
